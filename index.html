@@ -20,20 +20,17 @@
           scale="0.006 0.006 0.006"
           gltf-model="./just_a_girl/scene.gltf"
         ></a-entity> -->
-
         <a-plane
           rotation="-90 0 0"
           position="0 0 0"
           material="opacity: 0.7"
           color="red"
         ></a-plane>
-        <a-text
-          mixin="text"
-          position="0 1 1"
-          wrap-count="15"
-          rotation="-90 0 0"
-          color="blue"
-        ></a-text>
+        <a-entity
+          position="0 -1 0"
+          text="width: 2; lineHeight: 50; letterSpacing: 5; color: blue; value: [LINE AND LETTER SPACING] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam"
+        >
+        </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
